@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+        <ion-buttons start>
+            <button ion-button (click)="close()" clear>取消</button>
+        </ion-buttons>
+        <ion-title>修改姓名</ion-title>
+        <ion-buttons end>
+            <button ion-button clear right (click)="save()">保存</button>
+        </ion-buttons>
+        <ion-title>修改姓名</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <div class="user-info-group">
+        <ion-item>
+            <div class="user-info-label" item-left>
+                姓名
+            </div>
+            <ion-input [(ngModel)]="username" placeholder="请输入昵称"></ion-input>
+        </ion-item>
+    </div>
+
+</ion-content>

@@ -1,0 +1,50 @@
+page-login {
+    ion-content {
+        &.content-ios {
+            background-color: #fff;
+        }
+    }
+    ion-item.item-block {
+        background-color: transparent
+    }
+    .kl-title {
+        background: url('../../../assets/images/login/pic_login_bg@3x.png');
+        background-size: cover;
+        padding-bottom: 60%;
+        height: 0;
+        overflow: hidden;
+        .kl-title-text {
+            font-size: 24px;
+            font-size: 6.4vw;
+            color: #fff;
+            text-align: center;
+            margin-top: 20%;
+        }
+    }
+    .code-btn-con {
+        width: 100px;
+        text-align: center;
+        height: 24px;
+        border-left: solid 1px #EAEBED;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+        button {
+            span.button-inner {
+                font-size: 16px;
+            }
+        }
+        a[disabled], button[disabled], [ion-button][disabled]{
+            background: #fff;
+            opacity: 1;
+        }
+    }
+    input {
+        width: 100px;
+        font-size: 16px;
+    }
+    .login-btn {
+        margin-top: 30px;
+    }
+}

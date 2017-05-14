@@ -1,0 +1,29 @@
+<div class="course-card">
+    <ion-card>
+        <ion-item class="card-teacher">
+            <ion-avatar item-left>
+                <img src="assets/images/profile/user-img.jpg">
+            </ion-avatar>
+            <h2>{{course.teacher}}</h2>
+        </ion-item>
+        <div class="card-center-img"><img class="card-img" src="assets/images/home/pic_courseware1.png" alt="card-img"></div>
+        <h1 class="card-title">{{course.name}}</h1>
+        <div class="card-btn-con">
+            <button ion-button round outline (click)="play()" >查看课件</button>
+            <button ion-button round outline (click)="goToPractice()" >去做练习</button>
+        </div>
+        <ion-item class="card-footer">
+            <div item-left>
+                15个人看过此课件
+            </div>
+            <div item-right>
+                <ul class="kl-pic-list clearfix">
+                    <li class="kl-pic-list-item"><img src="assets/images/profile/user-img.jpg" alt=""></li>
+                    <li class="kl-pic-list-item"><img src="assets/images/profile/user-img.jpg" alt=""></li>
+                    <li class="kl-pic-list-item"><img src="assets/images/profile/user-img.jpg" alt=""></li>
+                    <li class="kl-pic-list-item"><img src="assets/images/profile/user-img.jpg" alt=""></li>
+                </ul>
+            </div>
+        </ion-item>
+    </ion-card>
+</div>

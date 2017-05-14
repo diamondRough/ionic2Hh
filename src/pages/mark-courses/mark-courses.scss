@@ -1,0 +1,27 @@
+page-mark-courses {
+    .item-ios.item-block .item-inner {
+        border-bottom: 0;
+    }
+    .item-ios ion-avatar {
+        min-width: 88px;
+        min-height: 88px;
+        border: solid 1px #e6e6e6;
+    }
+    .item-ios p {
+        margin-top: 13px;
+    }
+    .item-ios ion-avatar ion-img,
+    .item-ios ion-avatar img {
+        width: 87px;
+        height: 87px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .course-item {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        .label-ios {
+            margin: 15px 8px 0px 0;
+        }
+    }
+}

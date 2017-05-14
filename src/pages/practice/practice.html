@@ -1,0 +1,68 @@
+<!--
+  Generated template for the Practice page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only clear (click)="close()" >
+      <ion-icon name="close"></ion-icon>
+    </button>
+    </ion-buttons>
+    <ion-title>课堂练习</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="preview-con phone-con">
+    <div class="index">第1/5题</div>
+    <div class="question">函数y=f（x）的图像在[a,b]内是连续的曲线，若f（a）·f（b）&gt;0,则函数y=f(x)在区间（a,b）内（ ）</div>
+    <div class="answer-con">
+      <div class="answer-group clearfix">
+        <div class="title pull-left"><label for="preview-answer-1">A</label></div>
+        <div class="pull-left" id="preview-answer-1">只有一个零点</div>
+      </div>
+      <div class="answer-group clearfix">
+        <div class="title pull-left"><label for="preview-answer-2">B</label></div>
+        <div class="pull-left" id="preview-answer-2">至少有一个零点</div>
+      </div>
+      <div class="answer-group clearfix">
+        <div class="title pull-left"><label for="preview-answer-3">C</label></div>
+        <div class="pull-left" id="preview-answer-3">无零点</div>
+      </div>
+      <div class="answer-group clearfix">
+        <div class="title pull-left"><label for="preview-answer-4">D</label></div>
+        <div class="pull-left" id="preview-answer-4">无法确定</div>
+      </div>
+    </div>
+    <div class="analysis-con">
+      <div class="title">解析</div>
+      <div class="correct-answer-con">正确答案<span>C</span></div>
+      <div class="analysis">
+        <div>
+          <p>[分析]<br> 函数y=f(x)在区间[a,b]上的图像是连续不断的一条曲线，“f(a)·f(b)&lt;0”根据零点定理f(x)在区间[a,b]上至少有一个零点.
+          </p>
+          <p>[解答]<br> 解：函数y=f(x)在区间[a,b]上的图像是连续不断的一条曲线，“f(a)·f(b)&lt;0”
+            <br> ∴函数f(x)在区间[a,b]上至少有一个零点，也可能有2，3或多个零点.
+            <br> 故选C
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <div class="footer-con">
+    <ion-buttons start>
+      <button ion-button icon-only [clear]="true">
+      <img style="height:100%;" src="assets/images/practice/exercise_analysis_icon_d@3x.png">
+    </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button round [full]="true">
+      下一题
+    </button>
+    </ion-buttons>
+  </div>
+</ion-footer>

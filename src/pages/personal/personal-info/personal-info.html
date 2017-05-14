@@ -1,0 +1,58 @@
+<!--
+  Generated template for the PersonalInfo page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="margin-Padding0 body-bg">
+
+  <ion-navbar calss="border0">
+    <ion-title class="bar bar-header">个人资料</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="body-bg action-sheets-basic-page">
+  <div class="profile-photo-con margin-top13">
+    <span class="header-portrait"><img src="assets/images/profile/profile_our_icon@3x.png" alt="photo"></span>
+    <button ion-button clear class="profile-photo-font ">头像</button>
+  </div>
+
+  <form>
+    <ion-list class="personal-input-con">
+      <div class="input-con">
+        <label class="label-base">姓名</label>
+        <p class="input-r border1">
+        <input class="input-base" type="text" placeholder="Username" (click)="openModal()" />
+        <ion-icon name="arrow-forward" class="j-r"></ion-icon>
+        </p>
+      </div>
+      <div class="input-con">
+        <label class="label-base">性别</label>
+        <p class="input-r border0">
+        <input class="input-base" type="text" placeholder="女" readonly (click)="openSexMenu()" />
+        <ion-icon name="arrow-forward" class="j-r"></ion-icon>
+        </p>
+      </div>
+    </ion-list>
+
+    <ion-list class="personal-input-con">
+      <div class="input-con">
+        <label class="label-base">手机号</label>
+        <p class="input-r ">
+        <input class="input-base" type="text" placeholder="15868689668" readonly  />
+        </p>
+      </div>
+      <div class="input-con">
+        <label class="label-base">班级号</label>
+        <p class="input-r border0">
+        <input class="input-base" type="text" placeholder="768368" readonly />
+        </p>
+      </div>
+    </ion-list>
+    <!--按钮--> 
+    
+  </form>
+</ion-content>
+
+
+  

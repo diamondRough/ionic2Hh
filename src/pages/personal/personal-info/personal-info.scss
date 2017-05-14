@@ -1,0 +1,104 @@
+page-personal-info {
+    img,input {
+        border: 0;
+    }
+    p,form {margin:0;padding:0;}
+     .margin-top13{
+        margin-top: 1.3%;
+    }
+    .margin-Padding0 {
+        margin:0;
+        padding: 0;
+    }
+    .border0 {border: 0!important;}
+    .profile-photo-con {
+        box-sizing: border-box;
+        display: flex;
+        height: 13.5%;
+        padding: 2.2% 3.2%;
+        align-items: center;
+        background-color: #fff;
+        border: none;
+    }
+    .profile-photo-font {
+        font-family: PingFangSC-Regular;
+        font-size: 16px;
+        color: #333D4B;
+    }
+    .header-portrait {
+        display: inline-block;
+        border-radius: 50%;
+        background-color: #f60;
+    }
+    .personal-input-con {
+        width:100%;
+        margin-top:1.8%;
+        height: 14.4%;
+        padding:0 3.2%;
+        margin-bottom: 0;
+        background-color: #fff;
+        font-family:"PingFangSC-Regular";
+        box-sizing: border-box;
+        overflow:hidden;
+         .input-con {
+            box-sizing: border-box;
+            height:7.2%; 
+            padding: 2.1% 0 1.55% 0;
+            }
+        }
+    .label-base{
+        display: inline-block;
+        background-color: #fff;
+         font-size: 16px;
+        color: #97989B;
+        letter-spacing: 0;
+        width: 15.7%;
+
+    }
+    .input-r {
+        position:relative;
+        display: inline-block;
+        width:82.3%;
+        font-size: 16px;
+        color: #333D4B;
+        letter-spacing: 0;
+        background-color: #fff;
+    }
+    .border1 {
+        position: relative;
+        &::after {
+            content: '';
+                display: block;
+                border-bottom: #EAEBED 1px solid;
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 100%;
+                transform: scale(1, 0.5);
+        }
+    }
+    .j-r{
+        // margin-left:35%;
+        position: absolute;
+        right: 0;
+    }
+    .action-sheets-basic-page {
+        .ion-md-share {
+            color: #ED4248;
+        }
+        .ion-md-arrow-dropright-circle {
+            color: #508AE4;
+        }
+        .ion-md-heart-outline {
+            color: #31D55F;
+        }
+        .action-sheet-cancel ion-icon,
+        .action-sheet-destructive ion-icon {
+            color: #757575;
+            font-weight: normal;
+        }
+    }
+    
+    
+
+}

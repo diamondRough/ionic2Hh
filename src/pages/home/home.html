@@ -1,0 +1,57 @@
+<ion-menu [content]="home" #MenuController>
+  <ion-header>
+    <div class="profile">
+      <span class="avatar"><img (click)="goToUserInfo()" src="assets/images/profile/user-img.jpg"></span>
+      <br>李永胜 <img src="assets/images/profile/profile_gender_female@3x.png" class="ico">
+      <br>班级号：752420
+    </div>
+  </ion-header>
+  <ion-content no-bounce>
+    <ion-list>
+      <ion-item (click)="goToClearCache()" menuClose>
+        <ion-avatar item-left>
+          <img src="assets/images/profile/profile_clear_icon@3x.png">
+        </ion-avatar>
+        清除缓存
+      </ion-item>
+      <ion-item (click)="goToFeedback()" menuClose>
+        <ion-avatar item-left>
+          <img src="assets/images/profile/profile_feedback_icon@3x.png">
+        </ion-avatar>
+        意见反馈
+      </ion-item>
+      <ion-item (click)="goToAbout()">
+        <ion-avatar item-left>
+          <img src="assets/images/profile/profile_our_icon@3x.png">
+        </ion-avatar>
+        关于我们
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-content #home no-bounce>
+  <ion-header>
+    <ion-navbar color="dark">
+      <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <img src="assets/images/nav/menu_n.png"/>
+        </button>
+      </ion-buttons>
+      <ion-title>可乐数学</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only color="royal" (click)="goToMarkCourse()" >
+          <img src="assets/images/nav/mark_courseware_n.png"/>
+        </button>
+      </ion-buttons>
+    </ion-navbar>
+  </ion-header>
+  <ion-content no-bounce>
+    <ion-slides [spaceBetween]=-30 pager *ngIf="courses.length>0">
+      <ion-slide *ngFor="let course of courses">
+        <course-card [course]=course></course-card>
+      </ion-slide>
+    </ion-slides>
+    <list-empty emptyText="你还没有标记课件~" *ngIf="courses.length===0"></list-empty>
+  </ion-content>
+</ion-content>

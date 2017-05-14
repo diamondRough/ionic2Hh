@@ -1,0 +1,78 @@
+ion-label {
+    display: flex;
+    justify-content: center;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.kl-input-group {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.kl-input {
+    border: none;
+    outline: none;
+    position: relative;
+    top: 4px;
+    margin-left: 4px;
+    flex: 1;
+    background: transparent;
+}
+
+.kl-input-icon {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &.kl-phone {
+        background-image: url('../assets/images/login/login_cellphone_number.png');
+    }
+    &.kl-password {
+        background-image: url('../assets/images/login/login_password_icon.png');
+    }
+}
+
+.back-button-icon-ios {
+    content: '';
+    background: url('../assets/images/nav/public_nav_back_n@3x.png') center;
+    background-size: auto 24px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.kl-pic-list {
+    padding-left: 0;
+    list-style: none;
+    .kl-pic-list-item {
+        float: left;
+        border-radius: 50%;
+        border: solid 0.5px #fff;
+        overflow: hidden;
+        img {
+            width: 28px;
+            height: 28px;
+        }
+        &:nth-child(n+1) {
+            margin-left: -7px;
+        }
+    }
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.pull-left {
+    float: left;
+}

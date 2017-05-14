@@ -1,0 +1,22 @@
+.course-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    .course-grid-item {
+        width: 50%;
+        .course-con {
+            height: 132px;
+            margin: 3px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            .course-thumb-con {
+                border: solid 1px #e6e6e6;
+                flex: 1;
+                margin: 10px;
+            }
+        }
+    }
+}

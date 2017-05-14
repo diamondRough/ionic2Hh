@@ -1,0 +1,14 @@
+<ion-content [ngStyle]="contentStyle" no-bounce>
+  <div *ngIf="didEntry">
+    <ion-navbar [ngClass]="showStatusBar?'show':''">
+      <button (click)="back()" class="player-cancel"><img style="height:30px;" src="assets/images/nav/back2_n.png" alt=""></button>
+      <ion-title>直角三角形与勾股定理 ({{currentIndex + 1}}/{{slideUrlList.length}})</ion-title>
+    </ion-navbar>
+    <div class="slide-content" id="con" #con>
+      <kl-player [slideUrlList]="slideUrlList" (slideChange)="handleSlideChange($event)"></kl-player>
+    </div>
+    <button class="player-mark-btn" [ngClass]="showStatusBar?'show':''" ion-button clear>
+      <img src="assets/images/home/mark_courseware_bt_n.png" alt="标记课件">
+    </button>
+  </div>
+</ion-content>

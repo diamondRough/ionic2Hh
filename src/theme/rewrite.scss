@@ -1,0 +1,43 @@
+@import './common.scss';
+.title-ios .toolbar-title-ios {
+    font-size: 18px!important;
+    font-weight: 400!important;
+}
+
+.item-ios.item-block .item-inner {
+    border-color: #EAEBED;
+}
+
+.item-ios {
+    padding-left: 0;
+}
+
+.header-ios .toolbar-background-ios,
+.footer-ios .toolbar-background-ios {
+    background-color: #ffffff;
+}
+
+ion-content {
+    &.content-ios {
+        background-color: #F7F7F8;
+    }
+}
+
+.input-wrapper {
+    padding-bottom: 12px;
+}
+
+a[disabled],
+button[disabled],
+[ion-button][disabled] {
+    background-color: #9c9b9b;
+}
+
+@media screen and (max-width: 320px) {
+    button.button-round-ios {
+        height: 2.4em;
+    }
+    button.button-round-ios {
+        padding: 0 1.2rem;
+    }
+}

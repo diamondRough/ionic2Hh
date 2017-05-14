@@ -1,0 +1,50 @@
+page-user-info,
+user-name-modal {
+    .user-info-group {
+        margin-top: 12px;
+        .item {
+            ion-avatar {
+                img {
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+            &:last-child {
+                .item-inner {
+                    border-bottom: none;
+                }
+            }
+            .user-info-label {
+                width: 50px;
+                text-align: left;
+                color: #97989B;
+                font-size: 16px;
+            }
+            .item-inner {
+                .input-wrapper {
+                    padding-bottom: 0;
+                    .label-ios {
+                        margin: 0;
+                        color: #97989B;
+                        button {
+                            .label {
+                                color: #333D4B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .user-img {
+        margin-top: 8px;
+        .item-ios ion-avatar[item-left],
+        .item-ios ion-thumbnail[item-left] {
+            margin: 15px 16px 15px 0;
+        }
+        .input-wrapper {
+            padding-bottom: 0;
+            color: #333D4B;
+        }
+    }
+}

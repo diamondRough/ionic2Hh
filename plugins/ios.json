@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.guoqidangjian.chat"
+        }
+    },
+    "dependent_plugins": {}
+}

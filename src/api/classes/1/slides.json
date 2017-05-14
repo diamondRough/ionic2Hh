@@ -1,0 +1,48 @@
+{
+    "count": "1",
+    "page": "1",
+    "page_size": "5",
+    "page_count": "1",
+    "items": [
+        {
+            "id": 1,
+            "title": "解三角形",
+            "created_at": "创建时间",
+            "mark_count": "标记次数",
+            "correct_rate": "正确率",
+            "thumb": "缩率图"
+        },
+        {
+            "id": 2,
+            "title": "解四边形",
+            "created_at": "创建时间",
+            "mark_count": "标记次数",
+            "correct_rate": "正确率",
+            "thumb": "缩率图"
+        },
+        {
+            "id": 3,
+            "title": "解五边形",
+            "created_at": "创建时间",
+            "mark_count": "标记次数",
+            "correct_rate": "正确率",
+            "thumb": "缩率图"
+        },
+        {
+            "id": 4,
+            "title": "解六边形",
+            "created_at": "创建时间",
+            "mark_count": "标记次数",
+            "correct_rate": "正确率",
+            "thumb": "缩率图"
+        },
+        {
+            "id": 5,
+            "title": "解七边形",
+            "created_at": "创建时间",
+            "mark_count": "标记次数",
+            "correct_rate": "正确率",
+            "thumb": "缩率图"
+        }
+    ]
+}

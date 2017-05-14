@@ -1,0 +1,6 @@
+<ion-slides direction="horzential" (ionSlideDidChange)="onSlideChange()">
+    <ion-slide *ngFor="let slideUrl of slideUrlList;let i = index">
+        <slide-box [scale]="slideScale" [slideUrl]="slideUrl" *ngIf="i <= slideNow+1 && i >= slideNow -1"></slide-box>
+    </ion-slide>
+</ion-slides>
+<div class="slide-cover" #slideCover></div>

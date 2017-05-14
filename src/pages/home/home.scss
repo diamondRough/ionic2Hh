@@ -1,0 +1,26 @@
+page-home {
+    .avatar{
+        overflow: hidden;
+    }
+    .swiper-pagination {
+        display: none;
+    }
+    .toolbar-background {
+        background-color: #578CFA!important;
+        border: 0!important;
+    }
+    .bar-buttons {
+        img {
+            height: 24px;
+        }
+    }
+    ion-menu {
+        ion-content.content-ios {
+            background: #fff;
+        }
+    }
+    ion-header {
+        padding-top: 20px;
+        background: #578CFA;
+    }
+}

@@ -1,0 +1,107 @@
+page-practice {
+    ion-navbar{
+        [icon-only] ion-icon{
+            font-size: 2.8em;
+        }
+    }
+    .answer-group {
+        height: 120px;
+        margin: 6px 0 20px;
+        .title {
+            width: 48px;
+            height: 100%;
+            position: relative;
+            label {
+                width: 36px;
+                height: 36px;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(0, -50%);
+                line-height: 36px;
+                text-align: center;
+                color: #578cfa;
+                border: 1px solid #578cfa;
+                border-radius: 18px;
+                font-size: 20px;
+                font-weight: normal;
+            }
+        }
+        textarea {
+            width: 327px;
+            height: 100%;
+        }
+    }
+    .preview-con {
+        background: #fff;
+        .header {
+            border-bottom: 2px solid #eaecee;
+            height: 34px;
+            font-size: 18px;
+            text-align: center;
+            color: #4a4a4a;
+            letter-spacing: 1.7px;
+        }
+        .index {
+            height: 41px;
+            line-height: 40px;
+            font-size: 15px;
+            letter-spacing: 1.7px;
+            color: #379bfd;
+            padding: 0 12px;
+            position: relative;
+            &::after {
+                content: '';
+                display: block;
+                border-bottom: #d8d8d8 1px solid;
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 100%;
+                transform: scale(1, 0.5);
+            }
+        }
+        .question {
+            color: #525f72;
+            padding: 12px 11px 0 12px;
+        }
+        .answer-group {
+            margin: 20px 0;
+            height: 32px;
+            line-height: 32px;
+            .title {
+                margin-right: 12px;
+            }
+        }
+        .analysis-con {
+            padding: 0 12px;
+            .title {
+                margin-top: 25px;
+                color: #4a4a4a;
+                font-size: 16px;
+            }
+            .correct-answer-con,
+            .analysis {
+                margin-top: 4px;
+                font-size: 15px;
+                font-weight: 300;
+                color: #5c5a63;
+            }
+        }
+    }
+    ion-footer {
+        box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+    }
+    .footer-con {
+        width: 100%;
+        display: flex;
+        padding: 8px;
+        background: #fff;
+        .button-ios {
+            height: 42px;
+        }
+        ion-buttons:nth-child(2) {
+            flex: 1;
+        }
+    }
+}

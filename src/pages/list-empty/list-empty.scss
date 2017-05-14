@@ -1,0 +1,22 @@
+list-empty {
+    height: 100%;
+    .list-empty {
+        height: 100%;
+        background-image: url('../../assets/images/home/pic_no_courseware.png');
+        background-repeat: no-repeat;
+        background-size: 188px 170px;
+        background-color: #F7F7F8;
+        background-position-x: center;
+        background-position-y: 18.9%;
+        position: relative;
+        .list-empty-text {
+            font-size: 18px;
+            color: #97989B;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 18.9%;
+            margin-top: 170px;
+        }
+    }
+}

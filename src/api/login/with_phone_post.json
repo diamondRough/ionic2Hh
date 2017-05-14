@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "nickname": "昵称",
+  "token": "授权验证Token",
+  "role": "角色"
+}

@@ -1,0 +1,25 @@
+<ion-header>
+    <div class="kl-title">
+        <div class="kl-title-text">可乐数学</div>
+    </div>
+</ion-header>
+<ion-content padding no-bounce>
+    <div style="margin-top: 10px;">
+        <ion-item>
+            <div class="kl-input-group" item-content>
+                <span class="kl-input-icon kl-phone"></span>
+                <input type="number" class="kl-input" [(ngModel)]="phoneNumber" placeholder="请输入手机号码" required>
+            </div>
+        </ion-item>
+        <ion-item style="margin-top:5px;">
+            <div class="kl-input-group" item-content>
+                <span class="kl-input-icon kl-password"></span>
+                <input type="text" class="kl-input" type="number" [(ngModel)]="vcode"  placeholder="请输入验证码">
+                <div class="code-btn-con">
+                    <button (click)="getVCode()" [disabled]="vcodeLock" ion-button clear>{{vcodeLock?this.countDown:'获取验证码'}}</button>
+                </div>
+            </div>
+        </ion-item>
+    </div>
+    <button class="login-btn" [disabled]="!phoneNumber||!vcode" ion-button full (click)="login()" round>登录</button>
+</ion-content>
